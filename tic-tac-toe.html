@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Tic-Tac-Toe </title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="./tic-tac-toe css.css">
+    </head>
+    <body>
+       <div class = "container">
+           <div class="jumbotron">
+               <h1>TIC-TAC-TOE GAME</h1>
+               <p>Get ready to play!!!</p>
+               <button id = "btn" type="button" class="btn btn-success btn-lg" name="button">Restart</button>
+           </div>
+        </div>   
+       <table align="center">
+          <tr>
+            <td id = "b1"></td> <!--you can also make ids for every td and add event listener-->
+            <td id="b2"></td>
+            <td id ="b3"></td>
+          </tr>
+          <tr>
+            <td id="b4"></td>
+            <td id="b5"></td>
+            <td id = "b6"></td>
+          </tr>
+          <tr>
+            <td id="b7"></td>
+            <td id="b8"></td>
+            <td id="b9"></td>
+          </tr>
+       </table>
+
+       <script src = "./tictactoe.js"></script>
+    </body>
+</html>

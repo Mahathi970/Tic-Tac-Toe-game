@@ -1,0 +1,9 @@
+td{
+    height: 150px;
+    text-align: center;
+    background-color: rgb(57, 233, 195);
+    width: 150px;
+    border: 10px solid black;
+    color : black;
+    font-size: 100px;
+}
